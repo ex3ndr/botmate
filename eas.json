@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 4.1.2",
+    "appVersionSource": "remote",
+    "requireCommit": true
+  },
+  "build": {
+    "next": {
+      "channel": "next",
+      "env": {
+        "APP_ENV": "next"
+      },
+      "autoIncrement": true
+    },
+    "production": {
+      "channel": "production",
+      "env": {
+        "APP_ENV": "production"
+      },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "steve@bulkovo.com",
+        "ascAppId": "126165711",
+        "appleTeamId": "466DQWDR8C"
+      }
+    },
+    "next": {
+      "ios": {
+        "appleId": "steve@bulkovo.com",
+        "ascAppId": "126165711",
+        "appleTeamId": "466DQWDR8C"
+      }
+    }
+  }
+}
