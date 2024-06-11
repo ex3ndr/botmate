@@ -147,4 +147,8 @@ export const Schema = {
             token: z.string()
         })
     }),
+    listMemories: z.object({
+        ok: z.boolean(),
+        memories: z.array(memory)
+    }),
 };
